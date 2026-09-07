@@ -35,8 +35,8 @@ int compute_score(char *word)
         char c = toupper(word[i]);
         if(c >= 'A' && c <= 'Z');
         {
-            int idx = c - 'A';
-            score += POINTS[idx];
+            int n = c - 'A';
+            score += POINTS[n];
         }
     }
     return score;
