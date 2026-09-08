@@ -1,0 +1,22 @@
+sort1 uses: 冒泡排序
+
+How do you know?: 处理有序列表更快，随机排序更慢
+
+sort2 uses: 归并排序
+
+How do you know?: 处理有序和随机排序时间更少且相近
+
+sort3 uses: 选择排序
+
+How do you know?: 两种排序影响不大
+
+
+// notes
+sort1 random10k:0.221s
+sort1 sorted10k:0.056s
+
+sort2 random10k:0.041s
+sort2 sorted10k:0.038s
+
+sort3 random10k:0.129s
+sort3 sorted10k:0.135s
